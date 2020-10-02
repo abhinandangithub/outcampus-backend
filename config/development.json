@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "developsecurekey",
+    "db": "mongodb://localhost/test-6"
+}

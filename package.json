@@ -1,0 +1,46 @@
+{
+  "name": "vidly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --verbose --maxWorkers=1 --forceExit",
+    "coverage": "jest --watchAll --verbose --coverage",
+    "start": "npm run build && node --inspect dist/index.js",
+    "clean": "rimraf dist",
+    "build": "npm run clean && mkdir dist && babel src -s -D -d dist",
+    "dev": "nodemon --inspect --exec babel-node src/index.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.9.2",
+    "bcrypt": "^4.0.1",
+    "config": "^3.3.1",
+    "express": "^4.16.2",
+    "express-async-errors": "^3.1.1",
+    "jest": "^25.4.0",
+    "joi": "^13.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^25.4.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "joi-objectid": "^3.0.1",
+    "rimraf": "^3.0.2",
+    "supertest": "^4.0.2",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.1"
+  }
+}

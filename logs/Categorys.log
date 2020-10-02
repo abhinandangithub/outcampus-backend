@@ -1,0 +1,19 @@
+Sat, 25 Apr 2020 11:37:26 GMT | INFO | Categorys.log | Request recieved at /category | data:{"name":"fruits"} | log_data:{"name":"fruits"} | 
+Sat, 25 Apr 2020 11:37:26 GMT | ERROR | Categorys.log | Error: "categoryName" is required | log_data:{"name":"fruits"} | 
+Sat, 25 Apr 2020 11:37:37 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 11:41:38 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 11:45:21 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 11:46:44 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 11:47:27 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 11:47:41 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 11:48:02 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 11:59:31 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 12:01:15 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 12:02:53 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 12:12:42 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 12:13:22 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 12:14:26 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 12:15:25 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 12:16:25 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"fruits"} | log_data:{"categoryName":"fruits"} | 
+Sat, 25 Apr 2020 15:58:09 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"vegetables"} | log_data:{"categoryName":"vegetables"} | 
+Sat, 25 Apr 2020 15:58:36 GMT | INFO | Categorys.log | Request recieved at /category | data:{"categoryName":"groceries"} | log_data:{"categoryName":"groceries"} | 
