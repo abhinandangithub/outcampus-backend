@@ -10,7 +10,7 @@ require('./starup/route')(app);
 require('./starup/db')();
 require('./starup/validation')();
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 const server = app.listen(port, () => logger.info(`Listening on port ${port}...`));
 
 module.exports = server;
